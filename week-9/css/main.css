@@ -98,6 +98,8 @@ nav a{
 
     padding: 10px;
     text-align: center;
+/* remove link underline */
+text-decoration: none;
 }
 
 /* hover for cursor, active for touchscreen */
