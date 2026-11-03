@@ -54,7 +54,11 @@ table {
            Main Styles
 *******************************/
 
-/* targets a class */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* . targets a class */
 .container {
     /* stop site stretching forever */
     max-width: 900px;
@@ -67,4 +71,14 @@ table {
        left-right
        ...so margin:0 auto; automatically applies same margin on wither side of element
     */
+}
+
+h1 {
+    font-size: 36px;
+    color: rgb(126, 83, 53);
+    background: lightblue;
+    /* margin is space around an element, between other elements */
+    margin-bottom: 10px;
+    /* padding is space inside an element, pushes content away from edge */
+    padding: 10px;
 }
