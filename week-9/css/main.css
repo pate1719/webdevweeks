@@ -99,3 +99,8 @@ nav a{
     padding: 10px;
     text-align: center;
 }
+
+/* hover for cursor, active for touchscreen */
+nav a:hover, nav a:active {
+    background-color: turquoise
+}
