@@ -54,7 +54,17 @@ table {
            Main Styles
 *******************************/
 
+/* targets a class */
 .container {
+    /* stop site stretching forever */
     max-width: 900px;
     background-color: antiquewhite;
+
+    /* centre site */
+    margin: 0 auto;
+    /* when giving margin 2 vals, it means:
+       top-bottom
+       left-right
+       ...so margin:0 auto; automatically applies same margin on wither side of element
+    */
 }
