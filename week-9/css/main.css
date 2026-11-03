@@ -89,7 +89,7 @@ h1 {
 
 /* style the a tags inside nav only */
 
-nav a{
+nav a {
     /* make anchor tags block elements (to behave like divs) */
     display: block;
     background-color: lightgreen;
@@ -105,4 +105,31 @@ text-decoration: none;
 /* hover for cursor, active for touchscreen */
 nav a:hover, nav a:active {
     background-color: turquoise
+}
+
+/*******************************
+        Media Queries
+*******************************/
+
+
+@media screen and (min-width:720px) {
+    /* applies these styles only when screen is at least 720px width (minimum) or larger */
+    nav a {
+        float: left;
+        width: 25%;
+         /*box-sizing makes border + padding not count toward width and height of element */
+        box-sizing: border-box; 
+    }
+
+    main {
+        /* so it sits under floated parts */
+        clear: both;
+    }
+}
+
+@media screen and (min-width:900px) {
+    /* these styles only apply @ 900px and above */
+    nav a{
+        background-color: aqua;
+    }
 }
