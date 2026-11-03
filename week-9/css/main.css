@@ -82,3 +82,20 @@ h1 {
     /* padding is space inside an element, pushes content away from edge */
     padding: 10px;
 }
+
+/*******************************
+        Mobile Styles
+*******************************/
+
+/* style the a tags inside nav only */
+
+nav a{
+    /* make anchor tags block elements (to behave like divs) */
+    display: block;
+    background-color: lightgreen;
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+
+    padding: 10px;
+    text-align: center;
+}
